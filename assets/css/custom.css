@@ -1,0 +1,75 @@
+/* Enter your custom styles */
+.bg-main {
+    background-image: url('../img/bg-11.jpg');
+    background-size: cover;
+}
+.bg-mission {
+    background-image: url('../img/bg-12.jpg');
+    background-size: cover;
+}
+.bg-products {
+    background-image: url('../img/screen-2.png');
+    background-position-x: calc(50% + 300px);
+    transform: rotate(4deg) skewY(8deg);
+    background-size: contain;
+}
+@media (max-width: 991px) {
+    .bg-products {
+        background-image: none;
+    }
+}
+.bg-ui-frame, .bg-ds-frame {
+    overflow: hidden;
+}
+.bg-ui {
+    background-image: url('../img/screen-1.png');
+    transform: rotate(30deg) skewY(-20deg);
+    background-position: right center;
+    background-size: 80% auto;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.bg-ds {
+    background-image: url('../img/advantage.png');
+    background-position: left center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.no-gutter {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.icon-small {
+    height: 40px !important;
+    font-size: 40px !important;
+}
+.main-frame {
+    border-radius: 10px;
+}
+.mission-frame {
+    border-radius: 10px;
+}
+.-bg-sla-blue {
+    background-color: #0095C8 !important;
+}
+.-bg-sla-blue-mid {
+    background-color: #013BA6 !important;
+}
+.color-sla-blue-mid {
+    color: #013BA6 !important;
+}
+.-bg-sla-blue-dark {
+    background-color: #0C1C2D !important;
+}
+.contact-us {
+    color: #fff !important;
+}
+.sl-align-center {
+    margin: 10px 0;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
